@@ -1,0 +1,56 @@
+#Data Structure for Linear Algebra 
+Solving a problem with in system of linear equations
+
+--> consider sherrif has 180km/h car Bankrobber has 150km/hr car and five-minute head start , how long does it take the sheriff to catch the robber? what distance will they have raveled at that point ?
+Solving algebrically:
+  eq 1: d= 2.5*t 
+  eq 2: d = 3(t-5) 
+By solving we can get the solution 
+Regression model: 
+  A regression model is a type of machine learning model that predicts a continuous numerical value based on input features. 
+  
+  y = mx+b (linear regression model)
+  y = wx+ w1 x1+ w2 x2+...............+wn xn (multiple linear regression) 
+  y = ax^2 + bX+c (polynomial regression) 
+
+
+Tensors:
+
+Scaler  x
+vecotr [x1, x2, x3]
+matrix [[x1, x2], [x3,x4]]
+3d tensor 3d object 
+nd tensor higer dimensional 
+
+
+Scaler : x= 25 can be defined in pytorch or tensorflow 
+vector : one -dimensional array of numbers (denoted with lower case, italics,bold )
+
+  Vectore transpose : 
+        T
+  [a,b,c]   = [a 
+              b 
+              c]
+  y = np.array([[25, 2, 5]]) 
+  y_t = y.T 
+  print(y_t) ## u will se the transpose of the matrix 
+  
+  unti vector ||x|| =1 
+  Zero vector np.zeros(3)
+
+  NORMS: 
+  Norms are functions that quantify vector magnitude 
+  L1 norm : ||x|| sufix 1 = sum  of abs of elements 
+  L2 norm : ||x|| suf 2 = sqrt(sum of xi ^2) euclidian distance it is  np.linalg.norm(x)
+  squared L2 norm : ||x|| ^2 suf 2 = (sum of squares of elements) Xtranspose . x ##np.dot(x, x)
+  max infinite norm : np.max([np.abs(x1), np.abs(x2), ...]) 
+
+
+  Basis vectors : (1, 0), (0, 1) -- basis vectors
+  Orthogonal vectors:  x and y are othogonal if x(transpose).Y =0   are at 90 degree angle to each other 
+
+Matrices : normal operations 
+high-rank tensors : number of images in training batch , image height in pixels , image width in pixels, number of colour channels 
+
+  
+
