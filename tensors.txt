@@ -1,0 +1,31 @@
+TENSORS:
+  Transposition : rows change to coloumns and vice versa 
+    x.T # gives transpose as output 
+    if x is a tensor and x+2 will add 2 to every element and every operation bahevaes that way only 
+
+  REDUCTION: 
+    calculating sum across all elemtents of a tensor is a common operation.
+    for vector x of length n, we calculate 
+    for a matrix with m byn we calculate sigma i=1 to m sigma j =1 to n xij 
+
+    x = np.array([[25,2],[2,26], [3,7]])
+    x.sum() gives sum 
+    x.sum(axis=0) gives sum of all rows 
+    x.sum(axis =1 ) #gives sum of all colomns 
+
+  DOT PRODUCT:
+    x.y     ,  xTy,       <x,y> 
+    torch.dot(torch.tensor([]), torch.tensor([]))
+    tf.reduce_sum(tf.multiply(x_tf, y_tf)) 
+    
+    
+
+
+SOLVING LINEAR SYSTEMS:
+  1.SUBSTITUTION: 
+      x+y = 6 and 2x+3y = 16 
+      y = 6-x and substitute in 2nd equation 
+  2.ELIMINATION:
+      multiply eq1 by 2 and solve 
+  
+
