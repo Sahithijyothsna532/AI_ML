@@ -1,0 +1,15 @@
+frobenius form :
+np.linarg.norm(x) as like L2/eucldian norm 
+
+Matrix Multiplication:
+  torch.matmul(A_pt, B_pt) 
+
+Symmtric matrix if [A transpose = A] 
+Identitiy matrix : if diagonal elements are 1's 
+
+
+Matrix Inversion: 
+  y = XW 
+  w = xinverse y 
+
+   
